@@ -1,0 +1,110 @@
+﻿body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+	white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+	max-width: 280px;
+}
+
+.close {
+	display: none !important;
+}
+
+.newclose {
+	float: right;
+	height: 30px;
+	width: 30px;
+	border: 0px;
+	background-color: #fff;
+	padding: 7px;
+	background-image: url('../../Content/icons/cross.png');
+	background-repeat: no-repeat;
+	background-origin: content-box
+}
+
+.btn-minus {
+	height: 30px;
+	width: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 0px;
+	padding: 7px;
+	background-image: url('../../Content/icons/minus.png');
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	float: left
+}
+
+.btn-plus {
+	height: 30px;
+	width: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 0px;
+	padding: 7px;
+	background-image: url('../../Content/icons/plus.png');
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	float: left
+}
+
+.itemprice {
+	width: 90px;
+	float: left;
+	text-align: right;
+	margin-top: 10px;
+}
+
+.itemdesc {
+	height: 30px;
+	float: right;
+	text-align: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.itemcount {
+	height: 30px;
+	width: 40px;
+	float: left;
+	display: block;
+	text-align: center;
+}
+
+.maincontent {
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px
+}
+.buy {
+	width: 100px;
+	height: 40px;
+	background-color: rgba(42, 119, 180, 1);
+	color: white;
+}
+.cancel {
+	width: 100px;
+	height: 40px;
+	background-color: lightgray;
+	color: black;
+	padding-left:10px
+
+}
