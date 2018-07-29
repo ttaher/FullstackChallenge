@@ -1,1 +1,0 @@
-# FullstackChallenge 1
